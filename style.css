@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Apercu;
+    font-weight: bold;
+    src: url(./fonts/apercu_bold_pro.otf) format("opentype");
+}
+@font-face {
+    font-family: Apercu;
+    font-weight: medium;
+    src: url(./fonts/apercu_medium_pro.otf) format("opentype");
+}
+@font-face {
+    font-family: Apercu;
+    font-weight: regular;
+    src: url(./fonts/apercu_regular_pro.otf) format("opentype");
+}
+
+
+* {
+    
+    font-family: Apercu;
+
+}
+
+h1 {
+    font-family: Apercu;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #262626;
+    line-height: 120%;
+}
+
+h3 {
+    font-family: Apercu;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #262626;
+    line-height: 120%;
+}
+
+p {
+    font-family: Apercu;
+    font-weight: medium;
+    color: #595959;
+    line-height: 170%;
+}
+
+span {
+    color: #8A48EF;
+}
+
+.btn-primary {
+    background-color: #8A48EF;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #8A48EF;
+}
+
+.btn-link {
+    color: #8A48EF;
+    font-weight: bold;
+    text-decoration: none;
+}
+hr {
+    color:#8A48EF;
+    border-width: 2px;
+}
+
+.wrapper {
+    background-color: #8A48EF;
+    border-radius: 30px;
+    max-width: 70%;
+    padding: 8%;
+    text-align: center;
+    position: inherit;
+}
+
+.wrapper h1 {
+    color: #ffffff;
+}
+
+.footer  {
+    margin-top: 100px;
+    font-weight: regular;
+    color: #8C8C8C;
+}
