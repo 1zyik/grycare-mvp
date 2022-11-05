@@ -1,17 +1,17 @@
 @font-face {
     font-family: Apercu;
     font-weight: bold;
-    src: url(./fonts/apercu_bold_pro.otf) format("opentype");
+    src: url(https://res.cloudinary.com/dub6raup6/raw/upload/v1667662795/grycare-mvp/fonts/apercu_bold_pro_hdxqlx.otf) format("opentype");
 }
 @font-face {
     font-family: Apercu;
     font-weight: medium;
-    src: url(./fonts/apercu_medium_pro.otf) format("opentype");
+    src: url(https://res.cloudinary.com/dub6raup6/raw/upload/v1667662795/grycare-mvp/fonts/apercu_medium_pro_uiv704.otf) format("opentype");
 }
 @font-face {
     font-family: Apercu;
     font-weight: regular;
-    src: url(./fonts/apercu_regular_pro.otf) format("opentype");
+    src: url(https://res.cloudinary.com/dub6raup6/raw/upload/v1667662795/grycare-mvp/fonts/apercu_regular_pro_qjyqyo.otf) format("opentype");
 }
 
 
@@ -84,4 +84,31 @@ hr {
     margin-top: 100px;
     font-weight: regular;
     color: #8C8C8C;
+}
+.custom-popover {
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: #8A48EF;
+    --bs-popover-header-bg: #8A48EF;
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+  }
+
+.phone {
+font-family: Apercu;
+font-weight: bold;
+color: #8A48EF;
+}
+
+.phone:hover {
+font-family: Apercu;
+font-weight: bold;
+color: #8A48EF;
+}
+
+.social {
+    color: #8A48EF;
+}
+.social:hover {
+    color: #8A48EF;
 }
